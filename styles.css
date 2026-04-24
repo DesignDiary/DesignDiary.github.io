@@ -154,3 +154,46 @@ footer {
   text-align: center;
   background: white;
 }
+/* Fix navbar title spacing without affecting review page titles */
+.navbar h1 {
+  margin-left: 20px;
+  color: white;
+}
+
+/* Review page only */
+.review-page .cta {
+  padding: 30px 20px;
+}
+
+.review-page .container {
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+.review-page .hero-image {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: 0 auto 24px;
+}
+
+.review-page .page-title {
+  color: black;
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+.review-page .section {
+  padding: 18px 0;
+  text-align: left;
+}
+
+.review-page .section h2 {
+  margin: 0 0 8px;
+}
+
+.review-page .section p {
+  margin: 0;
+  line-height: 1.6;
+}
